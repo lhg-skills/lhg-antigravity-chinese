@@ -1,0 +1,8 @@
+---
+slug: lhg-antigravity-chinese
+display_name: Antigravity 反重力汉化助手
+description: Google Antigravity（反重力）桌面客户端 Windows/macOS 汉化 SOP：平台兼容性预检分流→版本降级判定→客户端退出确认→引擎安装→启动验证→一键还原。含 Intel Mac 兼容分支、新版本降级策略与 macOS App 管理权限诊断，双平台实测走通。
+version: 1.0.0
+author: 刘洪光
+license: MIT
+---

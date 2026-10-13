@@ -1,0 +1,8 @@
+# 保持脚本换行符不被 git 自动转换破坏
+*.command text eol=lf
+*.sh text eol=lf
+*.js text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+*.cmd text eol=crlf
+*.bat text eol=crlf
