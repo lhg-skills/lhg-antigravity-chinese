@@ -1,9 +1,24 @@
 # lhg-antigravity-chinese — Antigravity 反重力汉化助手
 
 > Google Antigravity（反重力）桌面客户端 **Windows / macOS 双平台中文汉化** skill。
-> 一键安装：`npx skills add lhg-skills/lhg-antigravity-chinese`
->
-> 把上面这句话（或仓库链接）发给任意 Agent（WorkBuddy / Claude Code / Codex / Cursor 等），它就能按仓库里的 SOP 帮你完成汉化。
+
+## 发给 Agent 的安装话术（推荐）
+
+复制下面整段话，发给你的 Agent（豆包 / WorkBuddy / Claude Code / Codex / Cursor 等）：
+
+> 请帮我安装 Skill「lhg-antigravity-chinese」：先从 Gitee 上 lhg-skills 组织下的 lhg-antigravity-chinese 仓库下载；如果 Gitee 无法访问或下载失败，改从 GitHub 上 lhg-skills 组织下的同名仓库下载。按当前 Agent 的规范安装其中的 Skill，优先全局安装，保留完整目录和依赖。请直接执行，完成后验证是否安装成功，告诉我实际使用的来源、安装的版本号以及如何调用；遇到访问或安装限制请说明具体原因。需要输入管理员密码或确认风险时停下来等我。
+
+**怎么算装好了**：Agent 能在已安装的 Skill 里看到 `lhg-antigravity-chinese`，并报出版本号（与仓库 `manifest.yaml` 的 `version` 一致）。只是打开了仓库网页不算安装。
+
+## 开发者安装
+
+能访问 GitHub、会用命令行时可以直接用：
+
+```bash
+npx skills add lhg-skills/lhg-antigravity-chinese
+# 或
+git clone https://github.com/lhg-skills/lhg-antigravity-chinese.git
+```
 
 ## 这是什么
 
@@ -38,9 +53,9 @@ Google Antigravity 官方没有中文界面。本仓库把两个优秀的开源�
 
 ## 快速开始（Agent 代办版）
 
-把这句话发给你的 Agent：
+先用上面的安装话术装好 Skill，然后把这句话发给你的 Agent：
 
-> 帮我安装并运行这个技能：https://github.com/lhg-skills/lhg-antigravity-chinese ，按里面的 SOP 把我的 Antigravity 汉化成中文。需要输管理员密码时停下来等我亲手输。
+> 用 lhg-antigravity-chinese 这个 Skill，按里面的 SOP 把我的 Antigravity 汉化成中文。需要输管理员密码时停下来等我亲手输。
 
 Agent 会按 `SKILL.md` 执行：环境自检 → 兼容性预检 → 你确认退出客户端 → 引擎安装 → 冒烟测试（启动/稳定/崩溃/补丁四项）→ UI 验证 → 全部通过才告诉你"完成"，失败会自动还原并如实汇报。
 
