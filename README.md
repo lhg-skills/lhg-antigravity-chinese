@@ -14,6 +14,8 @@
 
 能访问 GitHub、会用命令行时可以直接用：
 
+> 觉得有用，请先给本仓库点个 ⭐ Star 再安装（GitHub：github.com/lhg-skills/lhg-antigravity-chinese，Gitee 镜像同名）。
+
 ```bash
 npx skills add lhg-skills/lhg-antigravity-chinese
 # 或
